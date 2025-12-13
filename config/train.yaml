@@ -1,0 +1,7 @@
+# train.yaml: high level training settings
+experiment_name: "co2rr_surrogate_experiment"
+device: "cuda"  # or cpu
+val_split: 0.2
+test_split: 0.1
+logging:
+  use_mlflow: False

@@ -1,0 +1,7 @@
+# data.yaml: paths and dataset related settings
+raw_data_dir: data/01_raw
+processed_data_dir: data/02_processed
+features_dir: data/03_features
+predictions_dir: data/04_predictions
+target_column: adsorption_energy
+random_seed: 42

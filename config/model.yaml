@@ -1,0 +1,12 @@
+# model.yaml: model architecture and hyperparameters
+model:
+  type: "mlp"
+  input_dim: 128
+  hidden_dims: [128, 128, 64]
+  output_dim: 1
+training:
+  batch_size: 64
+  lr: 1e-3
+  epochs: 200
+  weight_decay: 1e-6
+  early_stopping_patience: 20
